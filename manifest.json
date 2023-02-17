@@ -3,11 +3,11 @@
   "version": "0.0.1",
   "manifest_version": 2,
   "browser_action": {
-    "default_icon": "Logo.png",
+    "default_icon": "LogoF.png",
     "default_popup": "popup.html"
   },
   "icons": {
-    "128": "Logo.png"
+    "128": "LogoF.png"
   },
   "permissions": ["activeTab"]
 }
