@@ -8,5 +8,5 @@ fetch(
     const name = cryptoPrices.Markets[0]["Name"];
     const volume24H = cryptoPrices.Markets[0]["Volume_24h"];
     const crypto = document.getElementById("crypto");
-    crypto.innerHTML = label + " " + cryptoPrice + " " + volume24H;
+    crypto.innerHTML = `${label} Price:${cryptoPrice} Vol24H:${volume24H}`;
   });
